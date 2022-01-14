@@ -1,0 +1,119 @@
+body{
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    width: 50%;
+    justify-content: center;
+}
+
+.container{
+    background-image: url('Fondo para formulario.jpg');
+    position: absolute;
+    justify-content: center;
+    width: 761px;
+    height: 1200px;
+}
+
+.misproyectos{
+    background-color: rgb(68, 68, 218);
+    color: white;
+    width: 400px;
+    height: 40px;
+    text-align: center;
+    padding: 15px;
+    justify-content: center;
+    margin-right: 0px;
+    margin-left: 210px;
+    margin-top: 48px;
+    margin-bottom: 0px;
+    position: relative;
+    left: -32px;
+}
+
+
+.proyectos{
+    padding-top: 70px;
+    position: relative;
+    justify-content: center;
+    margin-right: 0px;
+    margin-left: 65px;
+    margin-bottom: 60px;
+    
+}
+
+.estilo{
+    padding: 10px;
+    background-color: seagreen;
+    color: white;
+    text-align: center;
+    width: 400px;
+    height: 40px;
+    justify-content: center;
+    margin-left: 210px;
+    position: relative;
+    left: -32px;
+    border-radius: 26px;
+}
+
+.estilo:hover{
+    padding: 10px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    width: 400px;
+    height: 40px;
+    justify-content: center;
+    margin-left: 210px;
+    position: relative;
+    left: -32px;
+    border-radius: 26px;
+}
+
+.dirección{
+    display: flex;
+    margin: auto;
+    padding-top: 30px;
+}
+
+#izquierda{
+    background-image: url('../Imágenes/Izquierda.png');
+    position: relative;
+    justify-content: center;
+    margin-right: 0px;
+    margin-left: 55px;
+    margin-bottom: 60px;
+    flex: left;
+    width: 280px;
+    height: 280px;
+}
+
+#derecha{
+    background-image: url('../Imágenes/Derecha.png');
+    position: relative;
+    justify-content: center;
+    margin-right: 0px;
+    margin-left: 85px;
+    margin-bottom: 60px;
+    flex: right;
+    width: 280px;
+    height: 280px;
+}
+
+#derecha:hover{
+    background-image: url('../Imágenes/Derecha2.png');
+    position: relative;
+    justify-content: center;
+    margin-right: 0px;
+    margin-left: 85px;
+    margin-bottom: 60px;
+    flex: right;
+}
+
+
+#izquierda:hover{
+    background-image: url('../Imágenes/Izquierda2.png');
+    position: relative;
+    justify-content: center;
+    margin-right: 0px;
+    margin-bottom: 60px;
+    flex: left;
+}
